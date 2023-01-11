@@ -20,6 +20,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   showCounter: false,
   swipeTolerance: 120,
   widthRatio: 0.8,
-  heightRatio: 1,
+  heightRatio: 0.9,
   fadeSpeed: 200,
 });
