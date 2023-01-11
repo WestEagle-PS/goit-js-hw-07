@@ -13,6 +13,7 @@ const markupGallery = galleryItems
 galleryEl.insertAdjacentHTML('afterbegin', markupGallery);
 
 const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: `alt`,
   captionDelay: 250,
   scrollZoom: false,
   navText: ['←', '→'],
